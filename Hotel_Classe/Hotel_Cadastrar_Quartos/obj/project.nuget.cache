@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "A5O1EmcXWyEOsWHg5IE0bKR5PA+I+die5fcKSqk4ENe8t/L8xgAuhbBNSBjhxhwPsfWCb5fuPhpUcxeRm3dFwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pelea\\Desktop\\C# OOP\\Exercicio_Fixação\\Exercicio_Fixação\\Exercicio_Fixação.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pelea\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\Pelea\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Pelea\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Pelea\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
