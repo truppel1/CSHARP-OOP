@@ -1,48 +1,36 @@
 ﻿using System;
 using System.Globalization;
 
-namespace Exercicio_Fixação
+namespace Exercicios_com_classe
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
             CultureInfo CI = CultureInfo.InvariantCulture;
 
-            int rooms = 10;
-            Console.WriteLine("\nAvaliable rooms: ");
-            for (int i = 0; i < rooms; i++)
-            {
-                
-                    Console.WriteLine("ROOM " + (i+1) + " AVALIABLE.");
-            }
+            Product product = new Product();
 
-            Console.Write("\nType How many rooms will be rented: ");
-            int N = int.Parse(Console.ReadLine());
+            Console.Write("Type the product name: ");
+            product.name = Console.ReadLine();
+            Console.Write("Type the product price: ");
+            product.price = double.Parse(Console.ReadLine(), CI);
+            Console.Write("Type the product quantity: ");
+            product.quant = int.Parse(Console.ReadLine());
+            // DATA INSERT OF THE PRODUCT
 
-            Rooms[] Rent = new Rooms[15];
+            Console.WriteLine("\n" + product);
 
-            for ( int i = 1; i <= N; i++)
-            {
-                Console.WriteLine("\nRent #" + (i) + ":");
-                Console.Write("Name: ");
-                string name = Console.ReadLine();
-                Console.Write("Email: ");
-                string email = Console.ReadLine();
-                Console.Write("Room: ");
-                int room = int.Parse(Console.ReadLine());
-                Rent[room] = new Rooms(name, email, room);
-            }
+            // ADDING A PRODUCT
+            Console.Write("\nType quantity to be add: ");
+            product.Addproducts();
+            Console.WriteLine("\n " + product);
 
-            Console.WriteLine("\nBusy rooms: ");
-            
-            for (int i = 0; i < Rent.Length; i++)
-            {
-                if (Rent[i] != null)
-                {
-                    Console.WriteLine(Rent[i]);
-                }
-            }
+            // REMOVING A PRODUCT
+           
+            Console.Write("\nType quantity to be remove: ");
+            product.Removeproducts();
+            Console.WriteLine("\n" + product);
 
         }
     }
