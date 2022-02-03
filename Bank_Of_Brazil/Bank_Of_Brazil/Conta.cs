@@ -9,7 +9,7 @@ namespace Bank_Of_Brazil
     {
         CultureInfo CI = CultureInfo.InvariantCulture;
 
-        public int Nconta { get; private set; }   // PARA VISUALIZAR É PUBLIC - PARA MEXER É PRIVATE 
+        public int Nconta { get; private set; }   //  
         public string _nome { get; set; }
         public double saldo = 0;
         public Conta(int nconta, string nome)
