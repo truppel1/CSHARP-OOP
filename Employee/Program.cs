@@ -8,8 +8,6 @@ namespace Exercicios
         static void Main(string[] args)
         {
             CultureInfo CI = CultureInfo.InvariantCulture;
-            string name;
-            double salary, tax;
             double percent;
 
             Employee X = new Employee();
