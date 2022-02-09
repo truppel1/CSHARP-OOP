@@ -1,0 +1,1 @@
+Write a program to read the dollar exchange rate, and then an amount in dollars to be purchased by a person in reais. Inform how many reais the person will pay for the dollars, considering that the person will have to pay 6% of IOF over the dollar amount. Create a Currency Converter class to be responsible for the calculations.
