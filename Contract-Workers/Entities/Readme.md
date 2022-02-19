@@ -1,4 +1,4 @@
-<p><h3> Worker hour contracts </h3> </p>
+<p><h3> - Worker hour contracts </h3> </p>
 
 <br>
 
