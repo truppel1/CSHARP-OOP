@@ -9,7 +9,7 @@ the system immediate: DateTime.Now
 </h4> </p>
 
 <p><h4> 
-2.structure
+2. Structure
 </h4> </p>
 
 <br>
