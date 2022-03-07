@@ -25,7 +25,7 @@ Example: a company whose income was 400000.00 and has 25 employees, the tax is:
  
  <h2> <h2/>
    
- <h3>Example of how the program is runing <h3/>
+ <h3>Example of how the program is running <h3/>
   <h3> <h3/>
   
  <img src="https://user-images.githubusercontent.com/89888583/156957168-41da09e1-29a8-4684-aa4e-8d44111ea57f.gif">
